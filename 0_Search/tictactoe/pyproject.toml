@@ -1,0 +1,15 @@
+[project]
+name = "tictactoe"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "pygame>=2.6.1",
+]
+
+[dependency-groups]
+dev = [
+    "check50>=3.4.0",
+    "style50>=2.10.4",
+]
